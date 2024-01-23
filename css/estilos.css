@@ -34,3 +34,10 @@ div.menu ul li a:hover {
     background-color: #836741;
     color: #ffffff;
 }
+
+div.contenido {
+    background-color: #fff8f0;
+    color: #5a3e36;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
