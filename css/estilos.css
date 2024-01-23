@@ -1,0 +1,13 @@
+/*Esto no está en la práctica pero mejora el aspecto general de la página*/
+/*+++++++++++++++++++++*/
+* {
+    padding: 0px;
+    margin: 0px;
+}
+/*+++++++++++++++++++++*/
+
+#contenedor {
+    background-color: #fff8f0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
