@@ -55,6 +55,13 @@ div.menu ul li a:hover {
     color: #ffffff;
 }
 
+div.menu ul li {
+    display: inline;
+    list-style: none;
+    cursor: default;
+    margin-right: 25px;
+}
+
 div.contenido {
     background-color: #fff8f0;
     color: #5a3e36;
@@ -105,3 +112,4 @@ div.pie ul li a:hover {
 div.pie p {
     padding-top: 5px;
 }
+
