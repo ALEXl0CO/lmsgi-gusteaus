@@ -16,9 +16,29 @@ div.encabezado {
     background-image: url("../imgs/guesteaus.png");
     color: #5a3e36;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 36px;
-    text-align: center;
+    font-size: 60px; /*El tamaño de la práctica es 36, lo voy a subir a 60 para que se vea mejor*/    height: 115px;
     height: 115px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat; /*Esto evita que la imagen se repita infinitamente*/
+    background-size: 100%; /*Sin esto no se ajustaría a los bordes de la */
+    background-position: center; /*Esto permite que sólo se vea el centro de la imagen*/
+    overflow: hidden; /*Oculta lo que sobra de la imagen*/
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 1), -2px -2px 3px rgba(255, 255, 255, 1);
+}
+
+div.encabezado img {
+    width: 80px; /* Tamaño deseado para el logo */
+    height: 80px;
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    position: absolute; /* Posiciona la imagen absolutamente con respecto al contenedor padre */
+    top: 17px; /* Ajusta la posición desde la parte superior */
+    left: 17px; /* Ajusta la posición desde la izquierda */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); /* Agrega una sombra oscura */
+
 }
 
 div.menu ul li a {
