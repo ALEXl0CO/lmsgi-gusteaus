@@ -70,9 +70,38 @@ div.sidebar {
 }
 
 div.pie {
-    background-color: #a77e58;
-    color: #ffffff;
+    background-color: #5a3e36;
+    color: #ecdcc6;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     text-align: center;
+}
+
+div.pie ul {
+    border-bottom: 1px solid #999999;
+    padding: 5px;
+}
+
+div.pie ul li {
+    display: inline;
+    list-style: none;
+    font: bold 14px verdana, sans-serif;
+    cursor: default;
+    margin-right: 23px;
+}
+
+div.pie ul li a {
+    font-size: 18px;
+    color: #ecdcc6;
+    transition: background-color 0.2s ease, color 0.3s ease; /* Agrega una transición suave */
+    text-decoration: none;
+
+}
+
+div.pie ul li a:hover {
+    color: #ffffff;
+}
+
+div.pie p {
+    padding-top: 5px;
 }
