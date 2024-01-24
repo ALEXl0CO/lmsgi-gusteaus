@@ -46,6 +46,15 @@ div.menu {
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+div.menu ul li {
+    display: inline;
+    list-style: none;
+    cursor: default;
+    margin-right: 35px;
 }
 
 div.menu ul li a {
@@ -53,19 +62,14 @@ div.menu ul li a {
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    transition: background-color 0.3s ease, color 0.3s ease; /* Agrega una transición suave */
+    transition: background-color 0.3s ease, color 0.3s ease;
     text-decoration: none;
+    font-weight: bold;
 }
 
 div.menu ul li a:hover {
     color: #5a3e36;
-}
-
-div.menu ul li {
-    display: inline;
-    list-style: none;
-    cursor: default;
-    margin-right: 25px;
+    border-bottom: 2px solid;
 }
 
 div.contenido {
@@ -98,7 +102,8 @@ div.pie ul {
 div.pie ul li {
     display: inline;
     list-style: none;
-    font: bold 14px verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
     cursor: default;
     margin-right: 23px;
 }
@@ -106,7 +111,7 @@ div.pie ul li {
 div.pie ul li a {
     font-size: 18px;
     color: #ecdcc6;
-    transition: background-color 0.2s ease, color 0.3s ease; /* Agrega una transición suave */
+    transition: background-color 0.2s ease, color 0.3s ease;
     text-decoration: none;
 
 }
