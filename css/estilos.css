@@ -116,6 +116,10 @@ div.contenido ul {
     margin-left: 60px;
     list-style-type: none;
     list-style: upper-roman inside;
+    background-color: #ffefdee8; /*#ffefdea6*/
+    border-radius: 8px 50px 50px 8px;
+    /*border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;*/
 }
 
 div.contenido ul li {
@@ -145,7 +149,7 @@ h3.contacto {
 }
 
 h3.contacto + p {
-    padding-left: 20px;
+    padding: 0px 0px 10px 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
 }
@@ -156,7 +160,9 @@ div.sidebar {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     float: right;
-    width: 30%;
+    width: 29%;
+    border-bottom: 1px solid;
+    border-left: 1px solid
 }
 
 div.sidebar h2 {
@@ -172,8 +178,7 @@ div.sidebar h2 + p {
 }
 
 div.sidebar ul {
-    padding: 10px 20px 0px 20px;
-    list-style-type: none;
+    padding: 10px 20px 12px 20px;
     list-style: circle inside;
 }
 
@@ -188,6 +193,7 @@ div.pie {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     text-align: center;
+    clear: both;
 }
 
 div.pie ul {
