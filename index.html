@@ -45,6 +45,41 @@
                 <li>Clases de Cocina con Chefs Expertos</li>
             </ul>
         </div>
+        <div class="reservas">
+            <h2>Reservas</h2>
+            <p>Reserve su mesa para una experiencia gastronómica inolvidable. Disfrute de la alta cocina en un ambiente elegante y acogedor.</p>
+            <form action="">
+                <label for="nombre" class="titulos">Nombre<span class="obg">*</span></label><br>
+                <input type="text" name="nombre" required><br><br>
+
+                <div class="formContacto">
+                    <div>
+                        <label for="email" class="titulos">Email<span class="obg">*</span></label><br>
+                        <input type="email" name="email" required><br><br>
+                    </div>
+                    <div>
+                        <label for="telf" class="titulos">Teléfono<span class="obg">*</span></label><br>
+                        <input type="tel" name="telf" maxlength="15" required><br><br>
+                    </div>
+                </div>
+
+                <div class="formContacto">
+                    <div>
+                        <label for="personas" class="titulos">Nº Presonas<span class="obg">* </span><span class="req">(Max 8)</span></label><br>
+                        <input type="number" name="personas" min="1" max="8" required><br><br>
+                    </div>
+                    <div>
+                        <label for="fechayhora" class="titulos">Fecha y Hora<span class="obg">*</span></label><br>
+                        <input type="datetime-local" name="fechayhora" required><br><br>
+                    </div>
+                </div>
+                
+                <label for="comentarios" class="titulos">Comentarios / Peticiones Especiales</label><br>
+                <textarea name="comentarios" cols="40" rows="5"></textarea><br><br>
+                
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
         <div class="pie">
             <ul>
                 <li><a href="#sobrenosotros">Sobre Nosotros</a></li>
